@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edukasi Kesehatan</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- AUDIO BACKGROUND -->
+<audio id="bgMusic" loop>
+  <source src="audio/lagu.mp3" type="audio/mpeg">
+</audio>
+
+<!-- TOMBOL MUSIK -->
+<button id="musicBtn" class="music-btn">🔊</button>
+
+<div class="container">
+
+  <div class="bg-blur"></div>
+
+  <div class="image-wrapper">
+    <img src="img/bg.jpeg" class="main-image" alt="Puskesmas">
+
+    <!-- HOTSPOT -->
+    <button class="hotspot" data-type="cuci" data-x="28" data-y="1" data-w="23" data-h="18"></button>
+    <button class="hotspot" data-type="olahraga" data-x="54" data-y="6" data-w="23" data-h="20"></button>
+    <button class="hotspot" data-type="imunisasi" data-x="79" data-y="10" data-w="21" data-h="23"></button>
+    <button class="hotspot" data-type="daftar" data-x="34" data-y="30" data-w="10" data-h="27"></button>
+    <button class="hotspot" data-type="komputer" data-x="42" data-y="27" data-w="13" data-h="7"></button>
+    <button class="hotspot" data-type="alur" data-x="23" data-y="35" data-w="10" data-h="6"></button>
+    <button class="hotspot" data-type="admin" data-x="10" data-y="25" data-w="12" data-h="15"></button>
+    <button class="hotspot" data-type="perawat" data-x="30" data-y="60" data-w="13" data-h="13"></button>
+    <button class="hotspot" data-type="pasien" data-x="25" data-y="72" data-w="10" data-h="10"></button>
+    <button class="hotspot" data-type="mendata" data-x="1" data-y="81" data-w="30" data-h="23"></button>
+    <button class="hotspot" data-type="antri" data-x="56" data-y="40" data-w="43" data-h="23"></button>
+  </div>
+
+  <!-- AREA BAWAH -->
+  <div class="bottom-blur">
+    <h1>Program Edukasi Alur Pendaftaran Di Puskesmas</h1>
+    <div class="footer">
+      © Mahasiswa Keperawatan UPI 2025
+      <img src="img/logo-ig.png" id="btnIG" alt="Instagram">
+    </div>
+  </div>
+
+</div>
+
+<!-- POPUP INFO (TEKS & GAMBAR) -->
+<div id="popupInfo" class="popup popup-text">
+  <div class="popup-content">
+    <span class="close" id="closeInfo">&times;</span>
+    <div id="popupBody"></div>
+  </div>
+</div>
+
+<!-- POPUP IG -->
+<div id="popupIG" class="popup ig-popup">
+  <div class="popup-content ig-content">
+    <span class="close" id="closeIG">&times;</span>
+    <h2>Follow Instagram Kami 💕</h2>
+
+    <a href="https://instagram.com/alghfryy_" target="_blank" class="ig-link">@alghfryy</a>
+    <a href="https://instagram.com/_fkhryyyy" target="_blank" class="ig-link">@__fkhriiiii</a>
+    <a href="https://instagram.com/rizalnurhamzah007" target="_blank" class="ig-link">@rizalnurhamzah007</a>
+    <a href="https://instagram.com/rizkykurniaa4" target="_blank" class="ig-link">@rizkykurniaa4</a>
+  </div>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
